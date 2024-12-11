@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Custom Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="/js/question.js"></script>
+    <script defer src="/js/setup.js"></script>
+    <script defer src="/js/addquizquestions.js"></script>
+    <script defer src="/js/quiz.js"></script>
+    <script defer src="/js/markquiz.js"></script>
+    <script defer src="/js/main.js"></script>
+  </head>
+  <body>
+    <div class="text" id="text">
+      <div id="customize">
+        <p>
+          <strong>
+            Please customize your quiz. When you are satisfied with how it
+            looks, press the "Start" button.</strong
+          >
+        </p>
+        <hr />
+        <p>
+          <strong> Customise Quiz Display:</strong>
+        </p>
+
+        <p>
+          What would you like to name the quiz?:
+          <input id="input-name" type="text" />
+        </p>
+        <p>
+          What color would you like the background?
+          <input type="color" id="backgroundcolor" value="#ffffff" />
+        </p>
+        <p>
+          What color would you like the body?
+          <input type="color" id="bodycolor" value="#ffffff" />
+        </p>
+        <p>
+          What color would you like the text?
+          <input type="color" id="textcolor" value="#000000" />
+        </p>
+        <hr />
+        <p>
+          <strong> Customise Quiz Questions:</strong>
+        </p>
+        <div id="newQuizQuestions"></div>
+        <button id="addQuestion">Add question</button>
+
+        <hr />
+        <strong
+          >Are you sure? You can't change your quiz once you press
+          "Start"</strong
+        >
+      </div>
+
+      <!-- Quiz -->
+      <!-- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       -->
+
+      <div id="quiz"></div>
+
+      <div id="quizMark">
+        <h4>Your Score: ---/4 (---%)</h4>
+      </div>
+      <p>
+        <button id="btn">Start</button>
+      </p>
+    </div>
+  </body>
+</html>
